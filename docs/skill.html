@@ -1,0 +1,209 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Deepak Raj Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="neon-text" data-aos="zoom-in" data-aos-duration="1000">
+                <span>DEEPAK RAJ</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="project.html">Project</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="skill.html">Skills</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contact us.html">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <a href="">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+             </div>
+            </nav>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editing Skills Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      background-image: url('data:image/jpeg;base64,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');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.2);
+      max-width: 1000px;
+      animation: fadeSlideIn 1.5s ease;
+    }
+    .content {
+      flex: 1;
+      padding: 30px;
+      animation: fadeInText 2s ease;
+    }
+    .content h1 {
+      font-size: 28px;
+      color: #430f7b;
+      margin-bottom: 20px;
+    }
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .skills {
+      margin-top: 20px;
+    }
+    .skills h2 {
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #07075b;
+    }
+    .skills ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .skills li {
+      margin-bottom: 10px;
+    }
+    .image-box {
+      flex: 2;
+      min-width: 300px;
+      background-image: url('path-to-your-image.jpg');
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: zoomIn 2s ease;
+    }
+    .image-box img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    @keyframes fadeSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInText {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+    <center>
+  <div class="container">
+    <div class="content">
+         <div class="image-box">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw8PDw8PDw8PDw0PDQ0PDw8NDQ0PFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFw8QFy0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS03LS0tLS0tLS0tLTctLSstK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAcGBf/EAEEQAAICAQICAwsJBQkAAAAAAAABAhEDBBIFBjGTshMWISQ0QVFhcnPRUlNUcYGRobHBIiNidLMHFDJCQ4OSotL/xAAbAQACAwEBAQAAAAAAAAAAAAACAwABBAcFBv/EACERAQEBAQEAAgEFAQAAAAAAAAABAhEDEiExEyJBUVIE/9oADAMBAAIRAxEAPwDzOMfBCMaNEBtfU+w0EikFQLz9pQVESLIy6iEoshGfUVRKLJRCNRVELohZOopoqgiUXKTqAoqhhVBdKuS6KaG0VRfSdZKoraN2lbSybgraVtG0Si+lXBO0m0bRW0voPgXtKcRu0jROquSSBtAhFqIWQiFYzRAz4zTAz6dV9hhoFINIp5+4stFUEkUyaVRdFkIRqIQuiUQnUVRC6LosmwJKCoiRCtQNEoKiUX0mwFFUMoqi+l2A2k2h0SiwXJdFUNoqiF3JdE2jKJRfQ/EugJIe0LyIuA3n6JoFoYwWFGawuiwqIErjPjNMDPjNEDPp1T2MQaBiHEp5+xFkRaKZdqouiyUQjUQlF0WiE0NEoIshOoFIui6LoheoGiqDolFlWAougqJtIXYCiUHRKL6CwFEoOiUToeBoraHtJROh4W0KmjQxUkFCtwhoEa0LaDjLqBIWQsDNjRogIxGmCFadV9hoZEBDIgvP2tIsiCKZdIXRaRdEI1A0XRaIQmxRZdFuJCtQJAqLohVCkXtCSLohdgKJQe0lEBYDaVtGUXRAWF0ShlEogeAopoZRTRA2FSQuSHNC5IOEbhLQuSHtC5IOM24XRZdELJ4x4zTAzYjTADTq/tDUg4oFDEA8/a0gkRFlMuohdESCSIRVJF0FRdEJoUi6LLohVVRC6LIVqBLotIKiAsBRdBUXtICwFF7QtpdEDYDaTaHRKIDgGgWhrQDRA0qSFtD5IU0Fln1CmhckOaFzDjPuF0QL7yBFcYMRpgjNiNUANOq+0NiMSBQyIt5+4tIKikbeF6eOTPgxyvbky4oSrwPbKST8JGXf19sqiFR05cjaH0ZetZfePofRl6xldYr75rmCRZ07vI0XycvWMqXJOiSb25eh/wCoydLvpHNKJR9Pl3RQz6rFiyXsm5qSTp+CEn0/Wj3XeTovk5esZOh1XM0i6Omd5Wi+Tk6xisvI2kfRLNH6pxf5xJ0u1zii0j2Gv5FyxTeDJHL/AATXc5/Y+h/geX1Gnnjk4ZIyhOPTGSponQcJolGjS4lLJji+iU4RddNOSTOhd5mi+Tk6xk6H4ubUSj23HuWtNgxwljU7eRRdzb8G2T/Qz6HgOnnW5T+ybJ9l388eSUSUdHx8naNpOsnWMvvN0foydYyui+Fc1aBaOmd5mi9GTrGeX5y4Nh0ksCwqSWRZXLdLd/hca/Nlyl687J15eSAkh0kLaCjLolgSQ2SFyQyM+iiB2QLpb5uI1YzNiNeMHTqnsZEbFARQyIt5+4KKPo8C8r038xg7aMEUfQ4F5Vpv5jB20VWT1n1XZEZdfxPBp9vdskce+9u6/wBqqv8ANfeaz4PNHL8tb3Gsqx9y7p0wc927b618kB4+ed+2jvl0P0nH+PwKnzJomn4xj6H6fgeb7wZ/SY9U/wD0J1vJUsOLJleojLucJz29zabpXV7izPjj+3zOT14/p/ayf05HVDlvKC8e0/15P6cjqRKr0/LHreKYMDUc2WONyVxUn0r0laXi2myvbjz4py80VNbn9nSeQ/tEX77B7qXaPKqJQeOzHyeYuCQ1eJqkssU3iyedP5L/AIWfO5J4tPNCeHLJyliScJt3KUH4Kb89Pz+s9OQLkOjxuOfGmmpRzY1JPpTU1aOvHPeYtMocSVKlPJgyfa5JP8UzoRFR8HnCajhxtul3aPhfsSPk8P4lgjW7LBfWzfz6vFsfv4diZ4PaT5cL1n93XWtHljOEZwalGSuMl0NDM2WMIynJ1GKcpP0JK2z53LPken93+rH8a8m1Huc3YZDP4Z++PRfSIf8Ab4HkeeeIYdRLTvDkjk2RzbqvwW4V+TPPNC2i4z73bOFtC2hzQuSCZtEyQpodJC5IbGbRdELIF9FcfLxGvGZMJrxg6dX9YdAdBC4joIXXn+kEkfQ4CvGtN/MYO2jBFH0OBrxrTe/w9tFMnrP212IDJljH/FJK+i2lYZ5XnnhmbUf3fuOJ5Nndt1OK23srpfqf3APFzJby3j0n95x/Lh/yiYuOZ4PS6hKcG3gy0lKNv9lnPlyzrfo0vvx/EkuXdXHpwSX2w+JDf0p/ozlFeO6f2p/05HUDnXLWhy49Zgc4OKUp27XyJes6KQPr+Xhf7QV++w+6l2jyyR7fnHhWfPlxSxY3NRg1JqUFT3eto+PpuU9XN/tQjiXnlOcXX2RspU5xr5AxPu2WXmWJRb9bkmuyz3Jg4NwuGlx7IeFt3Ob8DnL9F6jbkmopybSSTbb8CSXSywV4jmp3xDDXmWnT6xv9T3JzXUaru+s7r5pZse1eiKklH8EjpRUqnm+evJoe/j2JnhqPd88LxeHv49iZ4ZoqhrpHLXken9j9WP4z5NqPc5uwxHLfkmD2P1Y/jHk2f3OXsMtf8OUtASQ5oXJEjNopoXJDmhbQwjREkLkh00LkhmWbRVECosIt8jEa8aMmI2Y0Tbq/rDoodFCojoIS8/0GkfQ4GvGtN7/D20YYj9NlljnCcfBKEoyi6upJ2iVk9J2WOzkOarmzW/OR6uHwCXNet+cj1cPgA8m/8246QY9f0HhFzVrfnI9XD4FT5l1cvA5xf+3D4FVM+Opft6LS+UYval2WemOZQ4xnUlNSW6LtPbE1rmfWfOR6uHwKX7ZurOOhEOfLmbWfOR6uHwKnzDq5eDutezCC/QvpP6de9z6iGOLlOUYRXTKTSR43mHmDu6eLFaxf5pdEsnqrzR/M+LnyzyO5zlN+mUnL8wFEG6T48Hol+9xe8x9pHUTl2NuLUl0xaa+tO0fW749X85Hq4fAk0qx9rndeLw99HsTPENH0+IcWz54qGWSlFSUklGMfCk15vrZ8+iugsdD5c8kwewvzY7i/k+f3OXsM8RpuO6nFCOOE0owVRWyL8H3F5+YdVOMoSmtsouMlsirTVPzBdV18RoBoc0LkiQiktC5Ie0KkhkI0RJCpGiaETGZZ9gISiBkvkYTZiRkwm3ETbrPqdFDoIVAfBCWD0g0hkUDFDYlVl1FpBpESDSAZtRKCSLUQ0iiNBUQ0glELaUXQ7QlEJINRBtLsBtLoNIuiugsLolDKJRXQF0C0NoFxLgNQuimhjQDQRdKaAkhzQuQRWiZIXJDpIXJDMk6hEkImjTJCJoZll9CiBUQMp8bCbMRjwm7Gibda9ofBD4IVBD8aEsHpDIoZFAxQ2KArJsUUMiiooZGILPqIkGkXFBqJRFCkGolpBpA2lVSQSQSQVAl2Aoug6JRQQUU0MolEBYU0DQ6gWi+gpTQDQ5oCSChVJaAkh0kLkFC9EyQqSHyQqSGZI0RNCJo0zETG5ZvSEUWWWGVx8TAjdiMWFG7Ci9ut+saYIfFCcZpghDz/AEg4odFAQQ6CF1k2OKGRiVGI2KKZtIkHFFxQaQFpNikg0i0g0gStQKiFtCSL2lA4Ci6Douiul2F0U0MaBonQ0toqhjQLRZdKaAaHNANBQrUJkA0NaAkg4XoiSFSRokhMkMyRsiSETRomhGRDMs3oTtIEQaR18PCbsRiwG/EXt131jTjNEEIxo1Y0Z6w+kNgh8ELxofBCqx7g4obGIMEOigbWbURRDjEuKGRQFJsUohKISiGkDaXYFIm0PaXtB6XYCiUHRKJ0FhdFNDKKaJKXSmgWhrQLQYKS0A0OaAki4VoloXJDpIW0HCqRJCpI0SQmSGZZ9M8xGRGmaETQ3LNsgge0gwh8HTm/EYdOj6GJBbdf9mnGjVjRmxI140Z6w7OgjRjQnGjRBCqx7hsEOjECCHxiLtZ9RIxGRRIoZGIFpWoiiEkEohJAWl2Aouhm0uiirCtpVDaK2kLsLBaGtAuJAahTQLQ1oFoOUuktC5Ie0A0EVYRJC2h0kLkhkJpEkJkjRJCpB5I0zTRnmjVNGfIh2WTZJAqINIfA0/mPoYiEL26/7NeI04yyCNMO2mBoxkIJrLpoxj0Qgqs+jIjIkIBStGIMhAC7+FkIQopCEIQvX5UAQhIXQyBZCB5LoGAyiBlUuQohA4RS5CZFkGZI0zzEZSEHZZdkkIQYU//Z" alt="Editing Skills Image">
+      <br>
+      <br>
+   
+   
+    </div>
+      <h1>Creative Video & Photo Editing Skills</h1>
+      <p>
+        As a passionate and skilled editor, I bring visual stories to life using industry-standard tools and a keen eye for detail. My expertise spans across both video and photo editing, enabling me to create compelling, professional-grade content that resonates with the audience. I’ve worked on various projects — from promotional videos and social media content to portrait retouching and creative photo manipulations.
+      </p>
+      <p>
+        In video editing, I excel at crafting narratives through seamless cuts, transitions, audio sync, and cinematic color grading. I’m proficient in Adobe Premiere Pro and DaVinci Resolve, delivering polished outputs optimized for YouTube, Instagram, and commercial platforms.
+      </p>
+      <p>
+        On the photo editing front, I specialize in enhancing visual aesthetics with Adobe Photoshop and Lightroom. Whether it’s high-end retouching, background removal, or color correction, I ensure each image maintains clarity and appeal while telling a story.
+      </p>
+
+      <div class="skills">
+        <h2>📹 Video Editing Skills</h2>
+        <ul>
+          <li>Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve</li>
+          <li>Color grading and transitions</li>
+          <li>Audio mixing and syncing</li>
+          <li>Motion graphics basics</li>
+          <li>Social media video optimization</li>
+        </ul>
+
+        <h2>📷 Photo Editing Skills</h2>
+        <ul>
+          <li>Adobe Photoshop, Lightroom, Snapseed</li>
+          <li>Skin retouching and blemish removal</li>
+          <li>Creative manipulation and overlays</li>
+          <li>Color correction and enhancement</li>
+          <li>Object/background removal</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </center>
+</body>
+
+<video autoplay muted loop id="bg-video">
+  <source src="loop.mp4" type="video/mp4">
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0}); 
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+        
+</body>

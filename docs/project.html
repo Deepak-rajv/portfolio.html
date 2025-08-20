@@ -1,0 +1,63 @@
+
+<head>  <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Deepak Raj Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="neon-text" data-aos="zoom-in" data-aos-duration="1000">
+                <span>DEEPAK RAJ</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="project.html">Project</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="skill.html">Skills</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contact us.html">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+             </div>
+    </nav>
+            <center>
+            <h1 class="fade-up" data-aos="flip-up" data-aos-delay="800"><span class="neon-text">PROJECT</span></h1>
+
+            </center>
+            <center>
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="3000">
+            <img src="IOT.jpg">
+            </div>
+            </center>
+<div class="card"><center>
+    <h1 data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">SMART DUSTBIN</h1>
+    <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000"><i>A smart dustbin using IoT technology can automate waste management by monitoring fill levels and triggering alerts when bins are full. This project typically involves an Arduino Uno, ultrasonic sensor, and a servo motor, along with a GSM module or other communication method for alerts. The ultrasonic sensor detects the garbage level, and the servo motor controls the dustbin lid. When the fill level reaches a threshold, the system can send notifications to waste management authorities, enabling timely emptying and preventing overflowing bins. </i></p>
+    <h1 data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Components</h1>
+    <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000"> Arduino Uno: The microcontroller that acts as the brain of the system, processing data and controlling other components.<br>Ultrasonic Sensor: Measures the distance to the garbage and calculates the fill level.<br>GSM Module:Sends SMS notifications to authorities when the dustbin is full.<br>GPS Module:Provides the exact location of the dustbin for efficient waste collection. </p>
+                </center>
+</div>
+ <video autoplay muted loop id="bg-video">
+  <source src="loop.mp4" type="video/mp4">
+  
+        
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(+500px)"
+            }
+        </script>
+       
+</body>

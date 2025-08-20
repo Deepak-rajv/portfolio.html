@@ -1,0 +1,118 @@
+<style>
+    body {
+    display: flow-root;
+    justify-content: center;
+    height: 1vh;
+    margin: 0;
+    background: #000;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.neon-text {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #ffe600, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #7300ff, 0 0 160px #00d4ff;
+    }
+}
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Deepak Raj Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+      <div class="nav-container">
+            <div class="neon-text" data-aos="zoom-in" data-aos-duration="1000">
+                <span>DEEPAK RAJ</span>
+            </div>
+
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="project.html">Project</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="skill.html">Skills</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contact us.html">Contact Us</a></div>
+            </div>
+      </div>
+        
+    </nav>
+            <center>
+    <section id="contact" class="py-20 bg-dark">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                 <div class="neon-container">
+    <h1 class="neon-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"> Get In Touch</h1>
+            </div>
+            <br>
+            <br>
+                <div>
+                    <h3 class="neon-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">Contact Information</h3>
+                       <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800"><i> Feel free to reach out to me for any questions or opportunities. <br>I'm always open to discussing new projects, <br>creative ideas or opportunities to be part of your vision.</i></p>
+                    <br>
+                                <h4 class="neon-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">Location</h4>
+                                <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Namakkal,Rasipuram</p>
+                                <br>
+
+                                <h4 class="neon-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">Email</h4>
+                                <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">deepak3622a@gmail.com</p>
+                                <br>
+
+                                <h4 class="neon-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">Phone</h4>
+                                <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">+91 6379037778</p>
+                                <br>
+                            </div>
+                        </div>
+<div class="neon-container">
+    <h1 class="neon-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"><span class="neon-text">SEND e-mail :<br>
+         deepakraj25072005@gmail.com </span></h1>
+</div>
+                        
+
+<form action="mailto:deepakraj25072005@gmail.com" method="post" enctype="text/plain" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+Name:<br>
+<input type="text" name="name" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800"><br>
+E-mail:<br>
+<input type="text" name="mail" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800"><br>
+Comment:<br>
+<input type="text" name="comment" size="50" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800"><br><br>
+<input type="submit" value="Send" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+<input type="reset" value="Reset" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+</form>
+    </section>
+  </center>
+       
+       
+                <video autoplay muted loop id="bg-video">
+  <source src="loop.mp4" type="video/mp4">
+            
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+</body>
